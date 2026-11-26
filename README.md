@@ -60,7 +60,7 @@ Contém duas **tabelas do Excel** lado a lado, que crescem automaticamente ao di
 | `entradas` | `C6:E19` | `DATA`, `CATEGORIA`, `VALOR` |
 | `saidas` | `G6:I9` | `DATA`, `CATEGORIA`, `VALOR` |
 
-Categorias usadas atualmente:
+Categorias usadas atualmente, estão cadastradas na validação de dados:
 - **Entradas:** `HOLERITE`, `CNPJ`, `FREE LANCE`
 - **Saídas:** `AGUA`, `ALUGUEL`, `LUZ`
 
@@ -81,6 +81,7 @@ Lista com ~128 instituições financeiras, com as colunas `ORDEM`, `CNPJ`, `NOME
 2. Em `Informes`, informe banco, valor atual e o nome do PDF do informe de rendimentos de cada instituição; confira o TOTAL.
 3. Em `Notas`, lance cada entrada e saída (data, categoria e valor) nas tabelas `entradas` e `saidas`.
 4. Em `Resumos`, atualize as tabelas dinâmicas: **Dados > Atualizar Tudo** (`Ctrl + Alt + F5`). Os totais e os gráficos são recalculados.
+5. As abas estão protegidas para evitar edições no lay-out
 
 ---
 
